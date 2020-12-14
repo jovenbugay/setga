@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>sidebar</title>
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../fonts/css/all.min.css"> 
+    </head>
+    <body>
+        <input type="checkbox" id="check">
+       <!--sidebar start-->
+       <div class="sidebar">
+        <label for="check">
+          <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label><br><br><br>
+        <center>
+          <img src="../../img/jov.jpg" class="profile_image" alt="">
+          <h4>Jov</h4>
+        </center>
+        <a href="../../html/destination.html"><i class="fas fa-map"></i></i><span>Destinations</span></a>
+        <a href="../../html/restaurants.html"><i class="fas fa-utensils"></i><span>Restaurants</span></a>
+        <a href="../../html/travelpacks.html"><i class="fas fa-plane"></i><span>Travel Packs</span></a>
+        <a href="../../html/faq.html"><i class="fas fa-lightbulb"></i><span>FAQ</span></a>
+      </div>
+  <!--sidebar end-->
+  <div class="movable"> 
+    <div class="txtonbg">
+        <h3>Trattoria Stella</h3>
+    </div>
+        <div class="first_restaubg" alt=""> 
+        </div>
+            <div class="placetextcontainer"> 
+                <div class="place_text1"> 
+                    <h3>Opening Hours</h3>
+                    <ul>
+                    <li><p>MON 10:30am–3pm, 6–9:30pm</p></li>
+                    <li><p>TUE 10:30am–3pm, 6–9:30pm</p></li>
+                    <li><p>WED Closed</p></li>
+                    <li><p>THU 10:30am–3pm, 6–9:30pm</p></li>
+                    <li><p>FRI 10:30am–3pm, 6–9:30pm</p></li>
+                    <li><p>SAT 10:30am–3pm, 6–9:30pm</p></li>
+                    <li><p>SUN 10:30am–3pm, 6–9:30pm</p></li>
+                </ul>
+                     </div>  
+<br>
+                     <div class="place_text1"> 
+                        <h3>Contact Number</h3>
+                       <p>+639266424091</p>
+                         </div>  
+                         <br>
+        <div class="place_text1"> 
+        <h3>Featured Menu</h3>
+         </div>  
+
+         <div id="slider">
+            <div id="box">
+                <img src="../../img/Menus/menu1/a.jpg">
+            </div>
+            <button class="prew" onclick="prewImage()">&laquo;</button>
+            <button class="next " onclick="nextImage()">&raquo;</button>
+            <div id="restaurant_info">
+               
+        </div>
+        </div>
+
+<br>
+<br>
+
+        <div class="place_text1">
+        <h4>Location</h4>
+        </div>
+       
+        <div id="container">
+            <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.9595610104507!2d121.91162036481192!3d11.97730009151362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x955ef0c624a955b1!2sTrattoria%20Stella%20Cucina%20casalinga%20Italiana%20Diniwid%20Boracay!5e0!3m2!1sen!2sph!4v1606464946756!5m2!1sen!2sph" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+ 
+        
+
+       
+        </div>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                    <h3><span>S</span>etga</h3>
+                    <p class="footer-links">
+                            <a href="../../html/home.html" class="link-1">Home</a>                        
+                            <a href="../../html/about.html">About</a>                
+                            <a href="../../html/contact.html">Contact</a>                        
+                            <a href="../../html/faq.html">FAQ</a>                    
+                    </p>
+                    <p class="footer-company-name">Search Travel Gala © 2020</p>
+            </div>
+            <div class="footer-center">
+                    <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p><span>133 F. Bautista Street</span> Marulas, Valenzuela City</p>
+                    </div>
+          
+                    <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+639179550719</p>
+                    </div>
+          
+                    <div>
+                            <i class="fa fa-envelope"></i>
+                            <p><a href="mailto:jovenbugay@gmail.com">jovenbugay@gmail.com</a></p>
+                    </div>
+          
+            </div>
+          
+            <div class="footer-right">
+          
+                    <p class="footer-company-about">
+                            <span>About the company</span>
+                            Setga Guide (Search, Travel, Gala Guide) intends to connect the travellers to the best destinations within the Philippines; providing them such resources which aims to help them to choose travel destinations online.
+                            Setga Guide also aims to reshape the manner in which explorers discover data, plan an outing, diary and offer their movement encounters. In light of dependable data, appraisals and audits made by and for travellers, you approach reliable travel administrations and experiences.
+                    </p>
+          
+                    <div class="footer-icons">
+          
+                            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+          
+                    </div>
+          
+            </div>
+          
+          </footer>
+            </div>
+
+
+ 
+            <script type="text/javascript">
+                var slider_content = document.getElementById('box');
+                var slider_text = document.getElementById('text');
+                var image = ['../../img/Menus/menu1/a','../../img/Menus/menu1/b','../../img/Menus/menu1/c','../../img/Menus/menu1/d'];
+                var text = ['Nanay Cirilas Kapeng Barako', 'Balay Dako','Aozora Japanese Restaurant','Marcia Adams Restaurant','Bag of Beans Charito'];
+                var i = image.length;
+                var j = text.length;
+                function nextImage(){
+                      if (i<image.length && j<text.length) {
+                          i= i+1;
+                          j= j+1;
+                      }else{
+                          i = 1;
+                          j=1;
+                      }
+                      slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+                      slider_text.innerHTML = "<h3>"+text[i-1] +"</h3>";
+                  }
+                function prewImage(){
+                      if (i<image.length+1 && i>1 && j<text.length+1 && j>1) {
+                          i= i-1;
+                      }else{
+                          i = image.length;
+                          j = text.length;
+                      }
+                      slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+                      slider_text.innerHTML = "<h3>"+text[i-1] +"</h3>";
+                  }
+                setInterval(nextImage , 4000);
+                </script>
+
+
+           
+    </body>
+    </html>
